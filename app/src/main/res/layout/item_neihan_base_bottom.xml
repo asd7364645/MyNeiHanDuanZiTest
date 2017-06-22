@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="14dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_neihan_zan_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/item_zan_selector"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/item_zan_selector"
+            android:text="620"
+            android:textColor="@color/item_check_text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/item_neihan_cai_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:drawableLeft="@drawable/item_cai_selector"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/item_cai_selector"
+            android:text="620"
+            android:textColor="@color/item_check_text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/item_neihan_pinglun_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:drawableLeft="@drawable/item_pinglun_selector"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/item_pinglun_selector"
+            android:text="620"
+            android:textColor="@color/item_check_text_color"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_neihan_shared_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:drawableLeft="@drawable/item_shared_selector"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/item_shared_selector"
+        android:text="620"
+        android:textColor="@color/item_check_text_color"
+        android:textSize="14sp" />
+
+</LinearLayout>

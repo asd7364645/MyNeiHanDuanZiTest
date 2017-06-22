@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/item_neihan_base_top" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/item_neihan_imgs_img"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:failureImage="@mipmap/ic_launcher"
+            fresco:failureImageScaleType="centerInside"
+            fresco:placeholderImage="@drawable/ic_failure_refresh"
+            fresco:placeholderImageScaleType="fitCenter" />
+
+        <ProgressBar
+            android:id="@+id/item_neihan_imgs_gif_progress"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <ImageView
+            android:id="@+id/item_neihan_imgs_gif_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/gifbutton_textpage_normal" />
+
+    </RelativeLayout>
+
+
+    <include layout="@layout/item_neihan_base_bottom" />
+
+</LinearLayout>

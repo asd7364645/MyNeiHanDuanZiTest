@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/item_neihan_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:fadeDuration="300"
+            fresco:placeholderImage="@drawable/ic_discovery_default_avatar"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:roundAsCircle="true" />
+
+        <TextView
+            android:id="@+id/item_neihan_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textColor="@color/nameTvColor" />
+
+        <ImageView
+            android:id="@+id/item_neihan_close"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/item_close_selector" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_neihan_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:text="积分肯定是拉风决定开始拉风决定卡死了还得看硫酸铁欧铁蔷薇普瑞千万附近空大师龙卷风打开时拉风决定死啦积分卡到了三"
+        android:textColor="@color/primaryTvColor"
+        android:textSize="14sp" />
+
+</LinearLayout>

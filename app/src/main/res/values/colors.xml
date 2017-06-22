@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="topBarBg">#dbd8ce</color>
+    <color name="topTvColor">#6b5548</color>
+    <color name="nameTvColor">#7f7e7e</color>
+    <color name="primaryTvColor">#373737</color>
+    <color name="secondaryTvColor">#cbcbcb</color>
+    <color name="bgBackground">#f2f1f5</color>
+    <color name="tvPressedColor">#FF6F52</color>
+
+</resources>
